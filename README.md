@@ -19,6 +19,7 @@ Decomposition_Predict.ipynb
 * Differential Expression Analysis
 DEA.ipynb
 ## Logistic Regression
-Program LR.py
-
-LOG file LR.log
+* Program
+LR.py
+* LOG file 
+LR.log
