@@ -355,4 +355,3 @@ dependencies:
     - threadpoolctl==2.1.0
     - torch==1.5.1
     - torchvision==0.6.1
-prefix: C:\Users\nrx398\AppData\Local\Continuum\anaconda3
