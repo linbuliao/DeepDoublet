@@ -1,14 +1,14 @@
-DeepDoublet: A Deep-learning-based Doublet Decomposition Tool
-================================================================
-A tool for decomposing doublet (mixed two single cells when sequencing) to two single cells based on their trascriptome.
+DeepDoublet: A tool for high-resolution Doublet Decomposition based on deep learning
+====================================================================================
+A tool for decomposing a doublet (mixed two single cells when sequencing) into two single cells based on their trascriptome.
 
 The matrices in "umi" folder only included expression values of 8,676 selected genes, while the matrices in "FullGenes" folder reserved information of all available genes.
 ## Hardware requirement
 * Disk space and memory  
-To generate 400k artificial doublets wiht around 9k genes included, you will need around 30 GigaByte disk space and 60 GigaByte memory.
+To generate 400k artificial doublets wiht around 9k genes included, you will need around 30GB disk space and 60GB memory.
 * GPU  
-To train a model on 400k artificial doublets with information of 9k genes. At least a 10 GB GTX 3080 is required.  
-In our application, we finished the training in half an hour with a Titan RTX.   
+To train a model on 400k artificial doublets with information of 9k genes. At least a 10GB GTX 3080 is required.  
+In our application, we finished the training in half an hour with a 24GB Titan RTX.   
 ## Environment
 Anaconda is needed to set a proper Python environment for running DeepDoublet:
 ```
