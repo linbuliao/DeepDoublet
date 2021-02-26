@@ -15,10 +15,13 @@ python GenAD_v1.py --s1 umi/hep_umi.csv --s2 umi/LEC_umi.csv --sampleSize 400000
 ```
 ## Workflow
 * Train Decomposition Model
+
 Decomposition_Training.ipynb
 * Predict with Decomposition Model
+
 Decomposition_Predict.ipynb
 * Differential Expression Analysis
+
 DEA.ipynb
 ## Logistic Regression
 __Program__ LR.py
