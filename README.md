@@ -4,7 +4,7 @@ A tool for decomposing doublet (mixed two single cells when sequencing) to two s
 
 The matrices in "umi" folder only included expression values of 8,676 selected genes, while the matrices in "FullGenes" folder reserved information of all available genes.
 ## Hardware requirement
-* Disk space and memory
+* Disk space and memory  
 To generate 400k artificial doublets wiht around 9k genes included, you will need around 30 GigaByte disk space and 60 GigaByte memory.
 * GPU  
 To train a model on 400k artificial doublets with information of 9k genes. At least a 10 GB GTX 3080 is required.  
