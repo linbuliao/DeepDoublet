@@ -20,4 +20,5 @@ Decomposition_Predict.ipynb
 DEA.ipynb
 ## Logistic Regression
 __Program__ LR.py
+
 __LOG file__ LR.log
