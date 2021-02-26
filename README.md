@@ -2,6 +2,8 @@ DeepDoublet: A Deep-learning-based Doublet Decomposition Tool
 ================================================================
 A tool for decomposing doublet (mixed two single cells when sequencing) to two single cells based on their trascriptome.
 
+The matrices in "umi" folder only included expression values of 8,676 selected genes, while the matrices in "FullGenes" folder reserved information of all available genes.
+
 ## Generate artificial doublets
 * Example
 ```
