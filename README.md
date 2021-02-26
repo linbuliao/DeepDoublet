@@ -1,4 +1,4 @@
-DeepDoublet: A tool for high-resolution Doublet Decomposition based on deep learning
+DeepDoublet: A tool for high-resolution doublet decomposition based on deep learning
 ====================================================================================
 A tool for decomposing a doublet (mixed two single cells when sequencing) into two single cells based on their trascriptome.
 
