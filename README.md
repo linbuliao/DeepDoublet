@@ -24,6 +24,8 @@ Generate 400,000 hepatocyte-LEC doublets
 ```
 python GenAD_v1.py --s1 umi/hep_umi.csv --s2 umi/LEC_umi.csv --sampleSize 400000 --outdir ADoub_new
 ```
+The artificial doublets were saved to the folder ADoub_new under the current path. The composition information of the artificial doublets is stored in ADoub_meta.csv. The first column "s1" is the order of the first single cell. The second column "MF_s1" indicates the proportion of the first single cell. The third column "s2" is the order of the second single cell. The fourth column "MF_s2" is the proportion of the second single cell.
+__Transcriptome_ADoub = Transcriptome_s1 * MF_s1 + Transcriptome_s2 * MF_s2__
 ## Workflow
 * Train Decomposition Model  
 Decomposition_Training.ipynb
