@@ -79,9 +79,7 @@ Single cell transcriptome information is stored in the `umi` folder. The folder 
 
 The transcriptome of each artificial doublet is calculated using the following formula:
 
-\[
-\text{Transcriptome\_ADoub} = (\text{Transcriptome\_s1} \times \text{MF\_s1}) + (\text{Transcriptome\_s2} \times \text{MF\_s2})
-\]
+Transcriptome_ADoub = Transcriptome_s1 X MF_s1 + Transcriptome_s2 X MF_s2
 
 **Where:**
 - **Transcriptome\_s1**: Transcriptome data of the first single cell (`s1`)
@@ -91,9 +89,7 @@ The transcriptome of each artificial doublet is calculated using the following f
 
 For example, if `s1`, `MF_s1`, `s2`, `MF_s2` are `596`, `0.7`, `250`, `0.3` respectively. The corresponding artificial doublet is
 
-\[
-\text{Transcriptome\_s1\_596} \times 0.7 + \text{Transcriptome\_s2\_250} \times 0.3
-\]
+Transcriptome_s1_596 X 0.7 + Transcriptome_s2_250 X 0.3
 
 
 ## Example Implementation in Python
