@@ -116,6 +116,10 @@ hep_umi = pd.read_csv(hep_umi_path, index_col=0)
 ADoub = np.load(doublets_path)
 ```
 
+## Artificial Doublets and Trained deep learning models
+The two deep learning models for decomposing hepatocyte-LEC doublets into hepatocytes and LECs, along with 400,000 artificial doublets for additional testing, have been uploaded here:
+https://figshare.com/articles/dataset/DeepDoublet_identifies_neighboring_cell_dependent_gene_expression/27217101
+
 ## Workflow
 * Train Decomposition Model  
 Decomposition_Training.ipynb
